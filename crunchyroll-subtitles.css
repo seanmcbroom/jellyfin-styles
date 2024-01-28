@@ -1,0 +1,39 @@
+/* Description: Crunchyroll subtitle style */
+
+.videoSubtitles {
+    font-family: Trebuchet MS;
+}
+
+.videoSubtitlesInner {
+    color: white; /* Text color */
+    --stroke-color: black; 
+    --stroke-width: 4px;/* Outline color */
+    --drop-shadow-offset: 2px;
+
+    text-shadow:
+        calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.5) calc(var(--stroke-width) * 0.866) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.866) calc(var(--stroke-width) * 0.5) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.5) calc(var(--stroke-width) * -0.866) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.5) calc(var(--stroke-width) * -0.866) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.866) calc(var(--stroke-width) * -0.5) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.5) calc(var(--stroke-width) * 0.866) 0 var(--stroke-color),
+        calc(var(--stroke-width) * 0.866) calc(var(--stroke-width) * -0.5) 0 var(--stroke-color),
+        calc(var(--stroke-width) * -0.866) calc(var(--stroke-width) * 0.5) 0 var(--stroke-color),
+        calc(var(--stroke-width) + var(--drop-shadow-offset)) calc(var(--stroke-width) + var(--drop-shadow-offset)) 15px var(--stroke-color) !important;  /* Drop-shadow settings */
+}
